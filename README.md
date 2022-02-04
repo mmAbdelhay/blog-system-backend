@@ -15,4 +15,4 @@
 
 ### notes
 
-- there is a collection of the api in .json file in the repo
+- there is a collection of the api in .json file in the repo.
