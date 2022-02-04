@@ -11,9 +11,10 @@ router.get("/blogs", async (req, res) => {
 router.post("/blog", async (req, res) => {
   const validationErrors = blogVlidator(req.body);
   if (Object.keys(validationErrors).length === 0) {
-    (await blogRepository.insertBlog(req.body))
-      ? res.status(201).json({ message: "Blog created Successfully" })
-      : res.status(500).json({ message: "Database Error Occurred" });
+    const newBlog = await blogRepository.insertBlog(req.body);
+    newBlog
+      ? res.status(201).json(commonResponse("Blog created successfully", newBlog))
+      : res.status(500).json(commonResponse("internal server error", null));
   } else {
     res.status(422).json(commonResponse("Validation errors", validationErrors));
   }

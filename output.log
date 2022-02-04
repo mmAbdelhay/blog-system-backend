@@ -14,3 +14,5 @@
 04-02-2022 20:38:19 [logger.service.js] [error]: Database Selection failed err:  Cast to ObjectId failed for value "61fd40abfa825ljgvhjvbh" (type string) at path "_id" for model "Blogs"
 04-02-2022 20:39:05 [logger.service.js] [error]: Database Selection failed err:  Cast to ObjectId failed for value "61fd40abfa825ljgvhjvbh" (type string) at path "_id" for model "Blogs"
 04-02-2022 20:41:19 [logger.service.js] [error]: Database Selection failed err:  Cast to ObjectId failed for value "61fd731a33595c29" (type string) at path "_id" for model "Blogs"
+04-02-2022 23:59:21 [logger.service.js] [error]: Database Selection failed err:  Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Blogs"
+05-02-2022 01:08:27 [logger.service.js] [error]: Database Selection failed err:  Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Blogs"

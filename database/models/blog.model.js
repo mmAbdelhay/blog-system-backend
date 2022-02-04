@@ -4,9 +4,9 @@ const schema = new mongoose.Schema(
   {
     title: { type: String, required: true },
     body: { type: String, required: true },
-    createdAt: {
+    publishedAt: {
       type: String,
-      default: new Date().toISOString(),
+      default: new Date().toLocaleString(),
     },
   },
   { versionKey: false }

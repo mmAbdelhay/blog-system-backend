@@ -8,7 +8,7 @@ module.exports.insertBlog = async (blog) => {
       body: blog.body,
     });
     newBlog.save();
-    return true;
+    return newBlog;
   } catch (err) {
     logger.error("Database Insertion failed err: ", err);
     console.log(err);
@@ -19,7 +19,7 @@ module.exports.insertBlog = async (blog) => {
 module.exports.findAll = async () => {
   try {
     const blogs = await Blog.find({});
-    return blogs ? blogs : false;
+    return blogs ?? false;
   } catch (err) {
     logger.error("Database Selection failed err: ", err);
     return false;

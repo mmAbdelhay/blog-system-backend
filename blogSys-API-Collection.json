@@ -1,1 +1,83 @@
-{"client":"Thunder Client","collectionName":"blogSys-API-Collection","dateExported":"2022-02-04T18:43:09.166Z","version":"1.1","folders":[],"requests":[{"containerId":"","sortNum":10000,"headers":[{"name":"Accept","value":"*/*"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)"}],"colId":"ad61b59c-0b60-4d42-b33a-1fedb7cf2003","name":"create blog","url":"http://localhost:8080/api/v1/blog","method":"POST","modified":"2022-02-04T14:59:08.899Z","created":"2022-02-04T14:58:45.163Z","_id":"c13386ab-07f9-4ad3-8663-436b9d01e0a5","params":[],"body":{"type":"json","raw":"{\n    \"title\": \"test\",\n    \"body\": \"body\"\n}","form":[]},"tests":[]},{"containerId":"","sortNum":20000,"headers":[{"name":"Accept","value":"*/*"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)"}],"colId":"ad61b59c-0b60-4d42-b33a-1fedb7cf2003","name":"all blogs","url":"http://localhost:8080/api/v1/blogs","method":"GET","modified":"2022-02-04T14:59:43.966Z","created":"2022-02-04T14:59:29.305Z","_id":"2ffe4d50-accb-4d3b-8bee-9bbe19826dd4","params":[],"tests":[]},{"containerId":"","sortNum":30000,"headers":[{"name":"Accept","value":"*/*"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)"}],"colId":"ad61b59c-0b60-4d42-b33a-1fedb7cf2003","name":"delete blog","url":"http://localhost:8080/api/v1/blog/61fd731a33595c295f7718a7","method":"DELETE","modified":"2022-02-04T18:41:27.015Z","created":"2022-02-04T18:40:50.100Z","_id":"f6359bf6-1837-43bb-a21b-59a21913d7a2","params":[],"tests":[]},{"containerId":"","sortNum":40000,"headers":[{"name":"Accept","value":"*/*"},{"name":"User-Agent","value":"Thunder Client (https://www.thunderclient.com)"}],"colId":"ad61b59c-0b60-4d42-b33a-1fedb7cf2003","name":"update blog","url":"http://localhost:8080/api/v1/blog/61fd735e33595c295f7718ad","method":"PUT","modified":"2022-02-04T18:42:43.256Z","created":"2022-02-04T18:41:44.499Z","_id":"2a392075-d524-4a04-a421-b77e0029ae30","params":[],"body":{"type":"json","raw":"{\n    \"title\": \"new test\",\n    \"body\": \"asdfslkdvmflsdkmvlekfmsdlkvbfmsdlkmvlekfdjnblvkfemdalgbh\"\n}","form":[]},"tests":[]}]}
+{
+  "client": "Thunder Client",
+  "collectionName": "blogSys-API-Collection",
+  "dateExported": "2022-02-04T18:43:09.166Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "containerId": "",
+      "sortNum": 10000,
+      "headers": [
+        { "name": "Accept", "value": "*/*" },
+        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" }
+      ],
+      "colId": "ad61b59c-0b60-4d42-b33a-1fedb7cf2003",
+      "name": "create blog",
+      "url": "http://localhost:8080/api/v1/blog",
+      "method": "POST",
+      "modified": "2022-02-04T14:59:08.899Z",
+      "created": "2022-02-04T14:58:45.163Z",
+      "_id": "c13386ab-07f9-4ad3-8663-436b9d01e0a5",
+      "params": [],
+      "body": { "type": "json", "raw": "{\n    \"title\": \"test\",\n    \"body\": \"body\"\n}", "form": [] },
+      "tests": []
+    },
+    {
+      "containerId": "",
+      "sortNum": 20000,
+      "headers": [
+        { "name": "Accept", "value": "*/*" },
+        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" }
+      ],
+      "colId": "ad61b59c-0b60-4d42-b33a-1fedb7cf2003",
+      "name": "all blogs",
+      "url": "http://localhost:8080/api/v1/blogs",
+      "method": "GET",
+      "modified": "2022-02-04T14:59:43.966Z",
+      "created": "2022-02-04T14:59:29.305Z",
+      "_id": "2ffe4d50-accb-4d3b-8bee-9bbe19826dd4",
+      "params": [],
+      "tests": []
+    },
+    {
+      "containerId": "",
+      "sortNum": 30000,
+      "headers": [
+        { "name": "Accept", "value": "*/*" },
+        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" }
+      ],
+      "colId": "ad61b59c-0b60-4d42-b33a-1fedb7cf2003",
+      "name": "delete blog",
+      "url": "http://localhost:8080/api/v1/blog/61fd731a33595c295f7718a7",
+      "method": "DELETE",
+      "modified": "2022-02-04T18:41:27.015Z",
+      "created": "2022-02-04T18:40:50.100Z",
+      "_id": "f6359bf6-1837-43bb-a21b-59a21913d7a2",
+      "params": [],
+      "tests": []
+    },
+    {
+      "containerId": "",
+      "sortNum": 40000,
+      "headers": [
+        { "name": "Accept", "value": "*/*" },
+        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" }
+      ],
+      "colId": "ad61b59c-0b60-4d42-b33a-1fedb7cf2003",
+      "name": "update blog",
+      "url": "http://localhost:8080/api/v1/blog/61fd735e33595c295f7718ad",
+      "method": "PUT",
+      "modified": "2022-02-04T18:42:43.256Z",
+      "created": "2022-02-04T18:41:44.499Z",
+      "_id": "2a392075-d524-4a04-a421-b77e0029ae30",
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"title\": \"new test\",\n    \"body\": \"asdfslkdvmflsdkmvlekfmsdlkvbfmsdlkmvlekfdjnblvkfemdalgbh\"\n}",
+        "form": []
+      },
+      "tests": []
+    }
+  ]
+}
